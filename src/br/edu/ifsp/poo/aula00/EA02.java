@@ -29,7 +29,6 @@ public class EA02 {
             grades.add(in.nextDouble());
         }
 
-        // <== Put your breakpoint here
         System.out.println("Notas da classe: ");
         double sum = 0.0;
 
