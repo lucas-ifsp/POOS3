@@ -29,6 +29,7 @@ public class Client {
             if(accounts[i] == account) {
                 for (int j = i; j < numAccounts - 1; j++)
                     accounts[j] = accounts[j+1];
+                accounts[numAccounts - 1] = null;
                 numAccounts--;
                 break;
             }
