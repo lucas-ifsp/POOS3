@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="75.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifsp.poo.aula08.controller.CtrlWindowDisplay">
+   <children>
+      <Label fx:id="lbReverted" layoutX="14.0" layoutY="30.0" text="Inverted chars:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="30.0" />
+      <Label fx:id="lbRevertedOutput" layoutX="122.0" layoutY="30.0" text="--" AnchorPane.leftAnchor="122.0" AnchorPane.topAnchor="30.0" />
+      <Button fx:id="btnOk" layoutX="190.0" layoutY="25.0" mnemonicParsing="false" onAction="#close" text="Ok" AnchorPane.leftAnchor="190.0" AnchorPane.topAnchor="25.0" />
+   </children>
+</AnchorPane>

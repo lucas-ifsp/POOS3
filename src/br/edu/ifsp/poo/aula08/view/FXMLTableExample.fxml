@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="422.0" prefWidth="495.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifsp.poo.aula08.controller.CtrlWindowTableExample">
+   <children>
+      <TableView fx:id="tableView" layoutX="25.0" layoutY="24.0" prefHeight="349.0" prefWidth="454.0" AnchorPane.bottomAnchor="49.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="24.0">
+        <columns>
+          <TableColumn fx:id="cName" minWidth="150.0" prefWidth="75.0" text="Nome" />
+          <TableColumn fx:id="cDescription" minWidth="300.0" prefWidth="75.0" text="Descrição" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtNome" layoutX="25.0" layoutY="382.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="25.0" />
+      <Button fx:id="btnAdd" layoutX="217.0" layoutY="382.0" mnemonicParsing="false" onAction="#addItemToTable" text="Add" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="217.0" />
+      <Button fx:id="btnRemove" layoutX="275.0" layoutY="382.0" mnemonicParsing="false" onAction="#removeItem" text="Remove" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="275.0" />
+   </children>
+</AnchorPane>
